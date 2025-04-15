@@ -40,3 +40,40 @@ web/pnpm-lock.yaml
 *.db
 *.sqlite
 *.sqlite3
+
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go-specific files
+/tmp/
+*.test
+*.out
+/vendor/
+/go.work
+
+# Node.js specific files
+node_modules/
+.npm
+.env.development.local
+.env.production.local
+.env.test.local
+.cache/
+.parcel-cache/
+
+# Build output
+/dist/
+/build/
+/out/
+
+# Coverage reports
+/coverage/
+*.lcov
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
